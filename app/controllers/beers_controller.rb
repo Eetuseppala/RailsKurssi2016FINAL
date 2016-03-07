@@ -6,6 +6,9 @@ class BeersController < ApplicationController
   def list
   end
 
+  def nglist
+  end
+
   # GET /beers
   # GET /beers.json
   def index
