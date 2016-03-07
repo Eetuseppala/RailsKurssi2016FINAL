@@ -5,6 +5,7 @@ class RatingsController < ApplicationController
     @styles = Style.top(3)
     @breweries = Brewery.top(3)
     @users = User.top(4)
+    @ratings = Rating.all
   end
 
   def new
